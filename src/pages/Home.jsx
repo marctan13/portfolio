@@ -52,17 +52,6 @@ function Home() {
             Contact
             </Button>
           </Stack>
-          {/* <Box mt={4}>
-            <Button m={2} onClick={() => navigate("/about-me")}>
-              About Me
-            </Button>
-            <Button m={2} onClick={() => navigate("/projects")} ml={2}>
-              Projects
-            </Button>
-            <Button m={2} onClick={() => navigate("/contact")} ml={2}>
-              Contact
-            </Button>
-          </Box> */}
         </Box>
         <Box
           mt={{ base: 10, md: 0 }}

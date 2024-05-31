@@ -1,16 +1,21 @@
-import React from 'react'
-import Navbar from '../components/Navbar'
-import { Outlet } from 'react-router-dom'
-import Footer from '../components/Footer'
+import React from "react";
+import Navbar from "../components/Navbar";
+import { Outlet } from "react-router-dom";
+import Footer from "../components/Footer";
 
 function Layout() {
   return (
-    <div>
-      <Navbar/>
-      <Outlet/>
-      <Footer/>
+    <div
+      style={{ display: "flex", flexDirection: "column", minHeight: "100vh" }}
+    >
+      <Navbar />
+      <div style={{ flex: 1, display: "flex", flexDirection: "column" }}>
+        <Outlet />
+      </div>
+      <Footer />
     </div>
-  )
+  );
 }
 
-export default Layout
+export default Layout;
+
