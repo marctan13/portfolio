@@ -17,7 +17,7 @@ function Certificates() {
   return (
     <Box width="100%" maxWidth="500px" margin="0 auto">
         <Heading mb={4}>Certificates</Heading>
-      <Carousel>
+      <Carousel autoPlay>
         {certificates.map((certificate, index) => (
           <div key={index}>
             <Image src={certificate} alt={`Certificate ${index + 1}`} objectFit="contain" />
