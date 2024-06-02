@@ -17,76 +17,76 @@ function Skills() {
       <SimpleGrid columns={{ base: 2, md: 6 }} spacing={4}>
         <Box>
           <Image
-            src="./src/assets/skills/react.png"
+            src="/skills/react.png"
             alt="React"
             boxSize="100px"
           />
         </Box>
         <Box>
           <Image
-            src="./src/assets/skills/python.jpg"
+            src="/skills/python.jpg"
             alt="Python"
             boxSize="100px"
           />
         </Box>
         <Box>
-          <Image src="./src/assets/skills/html.png" alt="HTML" boxSize="100px" />
+          <Image src="/skills/html.png" alt="HTML" boxSize="100px" />
         </Box>
         <Box>
-          <Image src="./src/assets/skills/css.png" alt="CSS" boxSize="100px" />
+          <Image src="/skills/css.png" alt="CSS" boxSize="100px" />
         </Box>
         <Box>
           <Image
-            src="./src/assets/skills/javascript.png"
+            src="/skills/javascript.png"
             alt="Javascript"
             boxSize="100px"
           />
         </Box>
         <Box>
           <Image
-            src="./src/assets/skills/bootstrap.png"
+            src="/skills/bootstrap.png"
             alt="Bootstrap"
             boxSize="100px"
           />
         </Box>
         <Box>
           <Image
-            src="./src/assets/skills/bulma.png"
+            src="/skills/bulma.png"
             alt="Bulma"
             boxSize="100px"
           />
         </Box>
         <Box>
           <Image
-            src="./src/assets/skills/chakra.png"
+            src="/skills/chakra.png"
             alt="Chakra"
             boxSize="100px"
           />
         </Box>
         <Box>
           <Image
-            src="./src/assets/skills/firebase.png"
+            src="/skills/firebase.png"
             alt="Firebase"
             boxSize="100px"
           />
         </Box>
         <Box>
           <Image
-            src="./src/assets/skills/jupyter.png"
+            src="/skills/jupyter.png"
             alt="Jupyter Notebook"
             boxSize="100px"
           />
         </Box>
         <Box>
           <Image
-            src="./src/assets/skills/node-express.png"
+            src="/skills/node-express.png"
             alt="Node JS Express"
             boxSize="100px"
           />
         </Box>
         <Box>
           <Image
-            src="./src/assets/skills/mysql.png"
+            src="/skills/mysql.png"
             alt="MySQL"
             boxSize="100px"
           />

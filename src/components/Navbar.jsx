@@ -49,7 +49,7 @@ function NavBar() {
       <Flex justify="space-between" align="center" position="relative">
         <Image
           src="/logo.png"
-          alt="Yapper Jobs Logo"
+          alt="My Logo"
           height="35px"
           onClick={() => navigate("/")}
           cursor="pointer"

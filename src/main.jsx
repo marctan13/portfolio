@@ -4,7 +4,7 @@ import App from "./App";
 import "./index.css";
 import { ChakraProvider } from "@chakra-ui/react";
 import { extendTheme } from "@chakra-ui/react";
-import logo from "./assets/logo.png";
+import logo from "/logo.png";
 
 // 2. Extend the theme to include custom colors, fonts, etc
 const colors = {
