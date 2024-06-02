@@ -1,4 +1,12 @@
-import { Flex, Box, Heading, Text, Image, Button, Stack } from "@chakra-ui/react";
+import {
+  Flex,
+  Box,
+  Heading,
+  Text,
+  Image,
+  Button,
+  Stack,
+} from "@chakra-ui/react";
 import { useTheme } from "@chakra-ui/react";
 import { useNavigate } from "react-router-dom";
 
@@ -42,15 +50,14 @@ function Home() {
             innovation.
           </Text>
           <Stack mt={4} spacing={4} direction="row" align="center">
-            {/* <Button colorScheme="teal" color={brand500} size="lg"  onClick={() => navigate("/about-me")}>
-            About Me
-            </Button> */}
-            <Button colorScheme="teal" color={brand500} size="lg" onClick={() => navigate("/contact")}>
-            Let's Work Together
+            <Button
+              colorScheme="teal"
+              color={brand500}
+              size="lg"
+              onClick={() => navigate("/contact")}
+            >
+              Let's Work Together
             </Button>
-            {/* <Button colorScheme="teal" color={brand500} size="lg" onClick={() => navigate("/contact")}>
-            Contact
-            </Button> */}
           </Stack>
         </Box>
         <Box

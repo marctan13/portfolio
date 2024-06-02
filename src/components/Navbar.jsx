@@ -69,7 +69,7 @@ function NavBar() {
               <ChakraLink as={Link} to="/projects" mr="4">
                 Projects
               </ChakraLink>
-              <ChakraLink as={Link} to="/contact">
+              <ChakraLink as={Link} to="/contact" mr="4">
                 Contact
               </ChakraLink>
               <Button
@@ -77,6 +77,7 @@ function NavBar() {
                 href={"/Marc-Tan-Resume.pdf"}
                 colorScheme="teal"
                 download
+                size="sm"
               >
                 Download Resume
               </Button>
@@ -97,10 +98,8 @@ function NavBar() {
           isOpen={isOpen}
         >
           <DrawerOverlay />
-          <DrawerContent bg="#A96CDE">
-            {" "}
-            {/* Drawer BG Color */}
-            <DrawerCloseButton />
+          <DrawerContent bg={brand900}>
+            <DrawerCloseButton color="white"/>
             <DrawerBody>
               <ChakraLink
                 as={Link}
@@ -166,6 +165,14 @@ function NavBar() {
               >
                 Contact
               </ChakraLink>
+              <Button
+                as={ChakraLink}
+                href={"/Marc-Tan-Resume.pdf"}
+                colorScheme="teal"
+                download
+              >
+                Download Resume
+              </Button>
             </DrawerBody>
           </DrawerContent>
         </Drawer>
