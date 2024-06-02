@@ -48,7 +48,7 @@ function NavBar() {
     >
       <Flex justify="space-between" align="center" position="relative">
         <Image
-          src="./src/assets/logo.png"
+          src="/logo.png"
           alt="Yapper Jobs Logo"
           height="35px"
           onClick={() => navigate("/")}
@@ -74,7 +74,7 @@ function NavBar() {
               </ChakraLink>
               <Button
                 as={ChakraLink}
-                href={"./src/assets/MarcTanResume.pdf"}
+                href={"/Marc-Tan-Resume.pdf"}
                 colorScheme="teal"
                 download
               >

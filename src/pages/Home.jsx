@@ -61,7 +61,7 @@ function Home() {
           justifyContent="center"
         >
           <Image
-            src="./src/assets/solo-pic.jpg"
+            src="/solo-pic.jpg"
             alt="Marc Tan"
             borderRadius="full"
             boxSize={{ base: "150px", md: "300px" }}
