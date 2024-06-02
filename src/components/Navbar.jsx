@@ -13,6 +13,7 @@ import {
   Image,
   Text,
   useTheme,
+  Button,
 } from "@chakra-ui/react";
 import { HamburgerIcon } from "@chakra-ui/icons";
 import { Link, useNavigate } from "react-router-dom";
@@ -71,6 +72,14 @@ function NavBar() {
               <ChakraLink as={Link} to="/contact">
                 Contact
               </ChakraLink>
+              <Button
+                as={ChakraLink}
+                href={"./src/assets/MarcTanResume.pdf"}
+                colorScheme="teal"
+                download
+              >
+                Download Resume
+              </Button>
             </Flex>
           </Flex>
         ) : (

@@ -42,15 +42,15 @@ function Home() {
             innovation.
           </Text>
           <Stack mt={4} spacing={4} direction="row" align="center">
-            <Button colorScheme="teal" color={brand500} size="lg"  onClick={() => navigate("/about-me")}>
+            {/* <Button colorScheme="teal" color={brand500} size="lg"  onClick={() => navigate("/about-me")}>
             About Me
-            </Button>
-            <Button colorScheme="teal" color={brand500} size="lg" onClick={() => navigate("/projects")}>
-            Projects
-            </Button>
+            </Button> */}
             <Button colorScheme="teal" color={brand500} size="lg" onClick={() => navigate("/contact")}>
-            Contact
+            Let's Work Together
             </Button>
+            {/* <Button colorScheme="teal" color={brand500} size="lg" onClick={() => navigate("/contact")}>
+            Contact
+            </Button> */}
           </Stack>
         </Box>
         <Box
