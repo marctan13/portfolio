@@ -68,11 +68,11 @@ export const projects = [
       demoURL: "https://yapper-chat.netlify.app",
     },
     {
-      title: "Shopper Ecommerce App",
+      title: "Shopmart Ecommerce App",
       description:
         "Designed and developed an ecommerce application using React, Express, and mySQL. The app allows users to browse products, add them to a cart, and checkout.",
-      img: "/projects/shopper.png",
-      githubURL: "https://github.com/marctan13/shopper",
+      img: "/projects/shopmart.png",
+      githubURL: "https://github.com/marctan13/shoppermart-frontend",
       demoURL: "https://shopper-marc.netlify.app/",
     },
     {
