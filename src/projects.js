@@ -72,8 +72,8 @@ export const projects = [
       description:
         "Designed and developed an ecommerce application using React, Express, and mySQL. The app allows users to browse products, add them to a cart, and checkout.",
       img: "/projects/shopmart.png",
-      githubURL: "https://github.com/marctan13/shoppermart-frontend",
-      demoURL: "https://shopper-marc.netlify.app/",
+      githubURL: "https://github.com/marctan13/shopmart-frontend",
+      demoURL: "https://shopmart-marctan.netlify.app",
     },
     {
       title: "Job Board App",
