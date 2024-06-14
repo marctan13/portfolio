@@ -74,13 +74,15 @@ export const projects = [
       img: "/projects/shopmart.png",
       githubURL: "https://github.com/marctan13/shopmart-frontend",
       demoURL: "https://shopmart-marctan.netlify.app",
+      backendURL: "https://github.com/marctan13/shopmart-backend",
     },
     {
       title: "Job Board App",
       description:
         "Collaborated with a team of interns to create a job board application using React, Express, and mySQL. The app allows users to post job listings and apply for jobs.",
-      img: "/projects/pokemon-api-screenshot.png", //No live image yet
+      img: "/projects/yapper-jobs.png", //No live image yet
       githubURL: "https://github.com/Bay-Valley-Tech-Code-Academy/yapper-jobs-front",
-      demoURL: "https://yapper-chat.netlify.app", //No live demo yet
+      // demoURL: "https://yapper-chat.netlify.app", //No live demo yet
+      backendURL: "https://github.com/Bay-Valley-Tech-Code-Academy/yapper-jobs-api"
     },
   ];

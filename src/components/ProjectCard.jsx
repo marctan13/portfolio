@@ -30,6 +30,11 @@ function ProjectCard() {
               View on GitHub <ExternalLinkIcon mx="2px" />
             </Link>
           ) : null}
+              {project.backendURL ? (
+                <Link href={project.backendURL} isExternal color={brand500} mt={2}>
+                  View Backend Code <ExternalLinkIcon mx="2px" />
+                </Link>
+              ) : null}
           {project.demoURL ? (
             <Link href={project.demoURL} isExternal color={brand500} mt={2}>
               View Demo <ExternalLinkIcon mx="2px" />
