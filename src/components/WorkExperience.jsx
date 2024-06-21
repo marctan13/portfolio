@@ -63,9 +63,9 @@ function WorkExperience() {
               >
                 <ModalOverlay />
                 <ModalContent>
-                  <ModalHeader>{job.title}</ModalHeader>
+                  <ModalHeader bg={brand600}>{job.title}</ModalHeader>
                   <ModalCloseButton />
-                  <ModalBody overflowY="auto" maxHeight="80vh">
+                  <ModalBody overflowY="auto" maxHeight="80vh" bg={brand600}>
                     <Text>Company: {activeJob?.company}</Text>
                     <Text>Location: {activeJob?.location}</Text>
                     <Text>Date: {activeJob?.date}</Text>
@@ -78,7 +78,7 @@ function WorkExperience() {
                       )}
                     </UnorderedList>
                   </ModalBody>
-                  <ModalFooter>
+                  <ModalFooter bg={brand600}>
                     <Button colorScheme="blue" mr={3} onClick={onClose}>
                       Close
                     </Button>
