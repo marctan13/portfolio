@@ -20,7 +20,7 @@ function Home() {
     <Flex
       direction="column"
       justify="space-between"
-      height="100vh"
+      height="82vh"
       bg={brand700}
       p={4}
     >
